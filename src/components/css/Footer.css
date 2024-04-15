@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon:XROT,YROT@11,21&display=swap');
+
+.foot{
+    margin-top: 10px;
+    bottom:0;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 2rem;
+    min-height: 20vh;
+    background-color: rgba(39, 80, 170, 0.267);
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot a img{
+    height: 5vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.foot a img:hover{
+    opacity: 0.5;
+}

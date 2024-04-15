@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Tilt+Neon:XROT,YROT@1,21&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.home{
+    min-height: 70vh;
+}
+.intro{
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+}
+.intro img{
+    width: 30vw;
+}
+.name span{
+    color: blueviolet;
+}
+.skills{
+    font-size: larger;
+}
+.heading{
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+    font-family: "Exo 2", sans-serif;
+}
+.main{
+    font-family: "DM Sans", sans-serif;
+    background-color: rgb(1, 1, 34);
+    color: aliceblue;
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+
+}
+.leftContent,.rightContent{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left:5px;
+    margin-right: 5px;
+
+}
+
+.leftContent span,.rightContent span{
+    font-size: 3rem; 
+}
+.leftContent span ul,.rightContent span ul{
+    font-family: "Exo 2", sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.leftContent span ul li,.rightContent span ul li{
+    color: rgba(68, 165, 165, 0.541);
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+

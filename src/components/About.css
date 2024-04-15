@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Signika+Negative:wght@300..700&display=swap');
+.about{
+    margin-top: 10px;
+    min-height: 70vh;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 1.5rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.about h1{
+    font-family: "Cinzel", serif;
+    font-size: 3rem;
+}
+.introduction,.section{
+    margin-top: 20px;
+    min-height: 50vh;
+    width: 90vw;
+    padding: 1vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(7, 34, 110, 0.24);
+}
+.introduction img{
+    padding-left: 1vw;
+    height: 40vh;
+    border-radius: 5px;
+}
+
+.gaming iframe{
+    padding-right: 1vw;
+    min-height: 40vh;
+    min-width: 40vw;
+}
